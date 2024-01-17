@@ -1,0 +1,105 @@
+@media screen and (max-width: 380px) {
+    .container {
+        width: 380px;
+        overflow: hidden; /*костыль*/
+    }
+    header {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    /* header end */
+    .coffee-hero-container {
+        margin: 0 16px;
+        height: auto;
+    }
+    .coffee-hero-textcontainer {
+        padding: 60px 16px;
+    }
+    .coffee-hero-text1 {
+        font-size: 42px;
+        width: 316px;
+        height: 144px;
+    }
+    /* coffee-hero end */
+    .favorite-coffee-container {
+        padding: 0 16px;
+    }
+    .fav-cof-text1 {
+        font-size: 32px;
+       /* margin-bottom: 50px;для перфект пикселя*/
+    }
+    .slider {
+        margin-top: 0;
+    }
+    .fav-coffee-slide-cont-main {
+        max-width: 348px;
+    }
+    .coffee-slider-1 {
+        width: 348px;
+        height: 348px;
+        background-size: cover;
+    }
+    .button-left, .button-right {
+        display: none;
+    }
+    .coffee-slider-1-h, .coffee-slider-1-txt, .coffee-slider-1-price {
+        width: auto;
+        height: auto;
+    }
+    /* favorite-coffee end */
+    .about-container {
+        padding: 0 16px;
+    }
+    .about-txt {
+        height: auto;
+        font-size: 32px;
+    }
+    /* about end */
+    .mobileapp-container {
+        padding: 0 16px;
+    }
+    .mobileapp {
+        gap: 40px;
+    }
+    .offer {
+        height: auto;
+        align-self: auto;
+    }
+    .mapp-maintxt {
+        height: auto;
+        font-size: 32px;
+        width: 348px;
+    }
+    .mapp-txt {
+        height: auto;
+        width: 348px;
+    }
+    .mapp-buttons {
+        flex-direction: column;
+        width: 200px;
+        height: 148px;
+    }
+    .mobileapp img:nth-child(2) {
+        width: 348px;
+        height: 348px;
+    }
+    /* mobile-app end */
+    footer {
+        padding: 0 16px;
+        margin-top: 244px;
+    }
+    .contacts {
+        height: auto;
+        padding: 60px 16px;
+        gap: 40px;
+    }
+    .contacts-offer {
+        width: auto;
+        height: auto;
+    }
+    .contacts-offer-text {
+        width: auto;
+        height: auto;
+        font-size: 32px;
+    }
+}

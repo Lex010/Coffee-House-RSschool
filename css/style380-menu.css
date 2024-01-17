@@ -1,0 +1,56 @@
+@media screen and (max-width: 380px) {
+    html {
+        overflow-x: hidden; /* решение с боковым прокрутом*/
+    }
+    .container {
+        gap: 1260px;/*костыль*/
+    }
+    .body {
+        margin-right: 0;
+    }
+    header {
+        width: 100%;
+    }
+    .header-menu {
+        width: 380px;
+        box-sizing: border-box;
+        padding: 0 16px;
+    }
+    /* header end */
+    .main-menu {
+        padding: 0 16px;
+    }
+    .main-menu-container-offer {
+        justify-content: center;
+        align-items: center;
+        width: 348px;
+    }
+    .main-menu-container-offer-txt {
+        font-size: 32px;
+        width: 348px;/*для пфпкс*/
+    }
+    .main-menu-container-offer-tabs {
+        gap: 8px;
+    }
+    .main-greed {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-greed-unit-descr {
+        width: 310px;
+        height: 160px;/*196*/
+    }
+    /* menu end */
+    footer {
+        padding: 0 16px;
+    }
+    .contacts {
+        width: 348px;
+        padding: 60px 16px;
+        gap: 40px;
+    }
+    .contacts-offer-text {
+        width: 316px;
+        height: auto;
+        font-size: 32px;
+    }
+}

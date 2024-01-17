@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    header {
+        box-sizing: border-box;
+        align-items: center;
+    }
+    header a img {
+        width: 100px;
+        height: 60px;
+    }
+    .header-text {
+        display: none;
+    }
+    .header-link-m {
+        display: none;
+    }
+    .button-icon-burger {
+        display: flex;
+    }
+    /* header end */
+    .coffee-hero-container {
+        width: auto;
+        background-position: center center;
+    }
+    .coffee-hero-textcontainer {
+        width: auto;
+        height: auto;
+        padding-left: 60px;/*для перфект пикселя*/
+    }
+    .coffee-hero-text1 {
+        width: 530px;
+        height: 228px;
+    }
+    .coffee-hero-button{
+        align-items: center;
+        justify-content: center;
+    }
+    .coffee-hero-button img {
+        opacity: 1;
+    }
+    /* coffee-hero end */
+    .favorite-coffee-container {
+        height: auto;
+    }
+    .slider {
+        margin-top: 116px;/*для перфект пикселя*/
+    }
+    .fav-coffee-slide-cont-main {
+        max-width: 488px;
+    }
+    .slider-cont-img {
+        width: auto;
+    }
+    /* favorite-coffee end */
+    .about-container {
+        height: auto;
+        width: auto;
+        padding: 0 40px;
+    }
+    .about-txt {
+        height: 450px;
+    }
+    .about-imgs {
+        flex-direction: column;
+    }
+    .about-img2-cont {
+        display: none;
+    }
+    .about-img3-cont {
+        display: none;
+    }
+    .about-imgs-column1, .about-imgs-column2 {
+        width: auto;
+    }
+    .about-img1-cont, .about-img4-cont {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      /* about end */
+    .mobileapp-container {
+        width: auto;
+        padding: 0 40px;
+        /* margin-top: 114px;  после выравнивания изображения телефонов не актуально*/
+        margin-top: 258px;
+    }
+    .mobileapp {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .offer {
+        width: auto;
+    }
+    .mapp-maintxt {
+        width: 688px;
+    }
+    .mapp-txt {
+        width: 688px;
+    }
+    .mobileapp img {
+        align-self: center;
+    }
+    /* mobile-app end */
+    footer {
+        margin-top: 544px;/*выравнивание в ручную*/
+        width: auto;
+        height: auto;
+        padding: 0 40px;
+    }
+    .contacts {
+        width: auto;
+        height: 736px;
+        padding: 100px 60px;
+        flex-direction: column;
+    }
+    .contacts-info {
+        align-self: auto;
+    }
+}
